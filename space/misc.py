@@ -5,3 +5,6 @@ def get_class(kls):
     for comp in parts[1:]:
         m = getattr(m, comp)
     return m
+
+def test():
+    print('yes am here')
